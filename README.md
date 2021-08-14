@@ -16,7 +16,7 @@ It is a solution to the Coding Ninjas CareerCamp React test. Please visit the Co
 
 ## Overview
 
-It is a meals app where you can search for any meal, displaying the results. You can see the details of every meal item, and you can bookmark and remove the bookmarked meal item.
+It is a calculator app made in React JS where you can do the basic functionalities of a simple calculator.
 
 ### Screenshot
 
