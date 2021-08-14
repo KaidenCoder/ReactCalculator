@@ -25,7 +25,7 @@ It is a calculator app made in React JS where you can do the basic functionaliti
 ### Links
 
 - Live Site URL: [Live Website](https://kurosakicoder.github.io/ReactCalculator/)
-- Video Explanation: [Video](https://drive.google.com/file/d/1Bid7uwf01VLnl2tKr2Zeko7IB8GMNj8i/view?usp=sharing)
+- Video Explanation: [Video Website](https://drive.google.com/file/d/1Bid7uwf01VLnl2tKr2Zeko7IB8GMNj8i/view?usp=sharing)
 
 ## My process
 
