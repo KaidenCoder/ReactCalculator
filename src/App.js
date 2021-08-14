@@ -7,6 +7,16 @@ function App() {
 
   const [value, setValue] = useState('');
 
+  // Check if the value is integer
+  const isInt = (n) => {
+    return Number(n) === n && n % 1 === 0;
+  }
+
+  // Check if the value is decimal
+  const isFloat = (n) => {
+    return Number(n) === n && n % 1 !== 0;
+  }
+
   // gathers all the input digits
   const handleDigits = (val) => {
     setValue(value + val)
@@ -15,7 +25,12 @@ function App() {
   const evaluateDigits = () => {
     try {
       // evaluates the input digits
-      setValue(eval(value))
+      let answer = eval(value)
+      if (isFloat(answer)) {
+        setValue(answer.toFixed(2))
+      } else if (isInt(answer)) {
+        setValue(answer)
+      }
     } catch (error) {
       // Alert the user when the user input format is wrong
       // Prevents the app from crashing
