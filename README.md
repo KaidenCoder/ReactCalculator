@@ -1,4 +1,4 @@
-# MEALS APP
+# CALCULATOR APP
 
 It is a solution to the Coding Ninjas CareerCamp React test. Please visit the Coding Ninjas career camp website [CodingNinjas CareerCamp](https://careercamp.codingninjas.com/?utm_source=codingninjas&utm_medium=top_navigation&utm_campaign=landing_header) for more details.
 
